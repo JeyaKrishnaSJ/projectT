@@ -3,18 +3,19 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: white;
+    background-color: rgb(205, 203, 246);
 }
 
 header {
     background-color: cornflowerblue;
-    color: #fff;
+    color: white;
     padding: 10px 0;
-    text-align: right;
+    text-align: center;
 }
 
+
 header .logo img {
-    width: 50px;
+    width: 400px;
     height: auto;
     transition: transform 0.3s ease-in-out;
 }
@@ -34,13 +35,13 @@ header nav ul li {
 }
 
 header nav ul li a {
-    color: #fff;
+    color:#0D0D69;
     text-decoration: none;
     transition: color 0.3s ease-in-out;
 }
 
 header nav ul li a:hover {
-    color: orange;
+    color: white;
 }
 
 main {
@@ -75,16 +76,17 @@ main {
 
 .dashboard {
     padding: 20px;
+    background-image: url('images/bprofile.jpg');
 }
 
 .dashboard-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-    gap: 110px;
+    gap: 100px;
 }
 
 .card {
-    background-color: #fff;
+    background-color: #8a8aff;
     border: 1px solid #ddd;
     border-radius: 5px;
     padding: 20px;
@@ -307,10 +309,7 @@ footer {
     text-align: center;
     padding: 10px 0;
 }
-/* Add to existing styles.css */
 
-/* Background for search section */
-/* Enhanced search bar */
 .search-section {
     padding: 20px;
     text-align: center;
@@ -373,7 +372,7 @@ footer {
     font-weight: bold;
 }
 
-/* Results section with animation */
+
 .results-section {
     padding: 20px;
     background-color: #f9f9f9;
@@ -386,7 +385,6 @@ footer {
     font-weight: bold;
 }
 
-/* Trip card styling */
 .trip-grid {
     display: flex;
     flex-wrap: wrap;
@@ -626,12 +624,10 @@ footer {
 }
 
 
-
-/* Profile Section Styles */
 .profile {
     max-width: 800px;
-    margin: 50px auto;
-    background-color: #fff;
+    margin: 10px auto;
+    background-image: url('images/bprofile.jpg');
     padding: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
